@@ -110,13 +110,28 @@ img.LogoProfile {
     padding: 20px 20px;
 }
 .play {
-    color: rgb(250, 250, 250);
-    background: rgb(103,193,245);
+    color: rgb(103,193,245);
+    background: rgb(32, 32, 32);
     padding: 8px 10px;
-    border-color: white;
+    border-color: rgb(250, 250, 250);
     cursor: pointer;
 
 }
+a:hover{
+    text-decoration: none;
+    background: rgb(78, 78, 78);
+    color: rgb(145, 255, 0);
+}
+a:active {
+    color: rgb(200, 200, 249);
+}
 a {
     text-decoration: none;
+}
+.position {
+    padding: 0px 8px;
+}
+.icoresul { 
+    height: 30px;
+    padding: 10px 0px 0px 0px;
 }
